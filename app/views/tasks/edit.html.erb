@@ -1,0 +1,10 @@
+
+<div style="width:500px; margin: 50px auto;">
+  <h1>Edit Task</h1>
+  <%= simple_form_for(@task) do |f| %>
+    <%= f.input :title %>
+    <%= f.input :details %>
+    <%= f.input :completed %>
+    <%= f.submit %>
+  <% end %>
+</div>
